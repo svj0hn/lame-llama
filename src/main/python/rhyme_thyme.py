@@ -1,18 +1,16 @@
-#!/usr/bin/env python
+class RhymeThyme(object):
 
-import sys
+    def rhyme_thyme(self):
+        #!/usr/bin/env python
+        
+        # Init -- load corpus etc.
+        
+        # Input word
+        #word = input('Input word!')
 
-# Init -- load corpus etc.
+        # Look for rhyming word
 
+        # Output rhyming word
 
-
-# Input word
-#word = input('Input word!')
-
-# Look for rhyming word
-
-# Output rhyming word
-
-#print('Thyme')
-sys.stdout.write('Thyme!\n')
-
+        #print('Thyme')
+        return 'Thyme\n'
