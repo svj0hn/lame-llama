@@ -2,6 +2,7 @@
 
 Dependencies:   
 Python > 2.7   
+PyBuilder for testing
 
 
 Build instructions:   
@@ -11,7 +12,7 @@ Possible to build with PyInstaller or CX_freeze
 Test instructions:   
 Add methods to src/unittest/python/rhyme_thyme_tests.py   
 Use unittest.assertX()   
-
+Then run pyb at root to run PyBuilder, all tests are executed, as well as code coverage. If code coverage < 70% build is not successfull.
 
 Run instruction:   
 Enter the following in your terminal:   
