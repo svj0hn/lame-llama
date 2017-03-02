@@ -3,7 +3,9 @@
 Dependencies:   
 Python > 2.7   
 PyBuilder for testing
-
+pip install pybuilder
+pip install xmlrunner
+pip install unittest-xml-reporting
 
 Build instructions:   
 Possible to build with PyInstaller or CX_freeze   
