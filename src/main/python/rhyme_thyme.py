@@ -16,7 +16,11 @@ class RhymeThyme(object):
         # Output word to user
         print('Rhyming word:  ' + word)
 
+    def print_welcome_text(self):
+        print("Welcome to Rhyme Thyme - the awesome rhyming time. \n")
+
     def __init__(self):
+        self.print_welcome_text()
         word = self.input_from_user()
         rhyming_word = self.rhyme_thyme(word)
         self.output_to_user(rhyming_word)
