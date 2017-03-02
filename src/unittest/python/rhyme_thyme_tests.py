@@ -10,5 +10,6 @@ class test_rhyme_thyme(unittest.TestCase):
         #self.assertEqual(RhymeThyme.rhyme_thyme(self,''), 'Yo mama\n', 'Not equal!')
 
     def test_goodbye(self):
-        self.assertEqual(RhymeThyme.goodbye_text(self), 'Goodbye!\n')
+        obj = RhymeThyme()
+        self.assertEqual(obj.print_goodbye_text(), 'Goodbye!\n')
     
