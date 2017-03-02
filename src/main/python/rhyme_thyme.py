@@ -14,7 +14,7 @@ class RhymeThyme(object):
         version_info = sys.version_info[:2]
         using_python_v3 = version_info[0] == 3
         out_str = 'Input word:   '
-        word = input(out_str) if using_python_v3 else raw_input(out_str)
+        word = 'Thyme' #input(out_str) if using_python_v3 else raw_input(out_str)
 
     def output_to_user(self, word):
         # Output word to user
