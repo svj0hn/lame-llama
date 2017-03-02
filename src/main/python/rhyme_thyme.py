@@ -23,6 +23,11 @@ class RhymeThyme(object):
     def print_welcome_text(self):
         print("Welcome to Rhyme Thyme - the awesome rhyming time. \n")
 
+    def print_goodbye_text(self):
+        text = "Goodbye!\n" 
+        print(text)
+        return text
+
     def __init__(self):
         self.print_welcome_text()
         word = self.input_from_user()
