@@ -5,11 +5,11 @@ class RhymeThyme(object):
         # Look for rhyming word
 
         # Output rhyming word
-        return 'Thyme\n'
+        return 'Thyme'
 
     def input_from_user(self):
         # Input word
-        word = input('Input word:   ')
+        word = raw_input('Input word:   ')
         return word
 
     def output_to_user(self, word):
