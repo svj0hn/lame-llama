@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{5d241759-0130-4ae4-a0bb-c39670fb8eb3}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>build.py</StartupFile>
+    <StartupFile>src\main\python\rhyme_thyme.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
