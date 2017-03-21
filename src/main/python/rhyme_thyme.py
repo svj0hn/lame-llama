@@ -14,8 +14,12 @@ class RhymeThyme(object):
         #output = []
         #for i in range(len(answers)):
             #output.append(str(answers[i]))
-        answers = list(set(rhymes))[0] #One answer
-        output = str(answers)
+        if len(list(set(rhymes))) > 1:
+            answers = list(set(rhymes))[0] #One answer
+            output = str(answers)
+        else:
+            answers = 'Failed to find rhyming word..'
+            output = str(answers)
         return output
         #return 'Thyme\n'
 
